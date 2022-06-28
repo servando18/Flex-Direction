@@ -1,0 +1,42 @@
+h3 {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 80px;
+  flex: 1 1 auto;
+}
+
+
+
+/* Edit below this line: */
+
+
+/* Part 1 */
+.one {
+  flex-direction:row;
+}
+
+
+/* Part 2 */
+.two {
+  flex-direction: column;
+}
+
+
+/* Part 3 */
+.three {
+  flex-direction: row-reverse;
+}
+
+
+/* Part 2 */
+.four {
+  flex-direction: column-reverse;
+}
